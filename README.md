@@ -1,4 +1,5 @@
 # covid-tracker
+[Live Demo](https://trackcovid.dev)
 
 ## Project setup
 ```
