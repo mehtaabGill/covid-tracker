@@ -1,5 +1,6 @@
 # covid-tracker
-[Live Demo](https://trackcovid.dev)
+[Live Demo](https://trackcovid.dev)  
+Powered by the https://about-corona.net API
 
 ## Project setup
 ```
