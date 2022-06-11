@@ -17,7 +17,7 @@
       <!-- LOOP THROUGH COUNTRIES -->
       <tr v-for="(country, index) in covidData" :key="index" class="bg-gray-100 hover:bg-gray-200 hover:font-bold">
         <!-- ADD FLAG FROM countryflags.io API -->
-        <td class="border-b hide-on-mobile"><img :src="'https://www.countryflags.io/' + country.code.toLowerCase() + '/flat/32.png'" :alt="country.name"></td>
+        <td class="border-b hide-on-mobile"><img :src="'https://countryflagsapi.com/png/' + country.code.toLowerCase()" :alt="country.name" style="width: 20%;"></td>
         <td class="border-b py-1">{{ country.name }}</td>
         <td class="border-b">{{ numberWithCommas(country.latest_data.confirmed) }}</td>
         <td class="border-b hide-on-mobile">{{ numberWithCommas(country.latest_data.deaths) }}</td>
